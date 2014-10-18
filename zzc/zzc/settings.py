@@ -80,4 +80,10 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.7/howto/static-files/
 
+STATIC_ROOT = "C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs/static/"
 STATIC_URL = '/static/'
+
+# STATICFILES_DIRS = (
+#     os.path.join(BASE_DIR, "static"),
+#     'C:/Program Files (x86)/Apache Software Foundation/Apache2.2/htdocs/zzc/zzc/static/',
+# )
