@@ -4,7 +4,7 @@
 # URLconf
 from django.conf.urls import patterns ,url ,include
 
-from demo import views
+from adam2014 import views
 
 urlpatterns = patterns("", 
  	url(r'^hello/$',views.helloworld,name='helloworld'),
