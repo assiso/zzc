@@ -9,7 +9,7 @@ urlpatterns = patterns('',
     # url(r'^blog/', include('blog.urls')),
 
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^demo/',include('demo.urls',namespace="demo")),
+    url(r'^hello/',include('adam2014.urls',namespace="hello")),
     # url(r'^static/(?P<path>.*)$', 'django.views.static.serve'),
 ) 
 
